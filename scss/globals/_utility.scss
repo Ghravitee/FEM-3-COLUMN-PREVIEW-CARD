@@ -1,0 +1,44 @@
+.container {
+  max-width: 70rem;
+  padding: 3em 1.5em;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background-color: var(--Very-light-gray);
+ 
+}
+
+a.btn {
+  text-decoration: none;
+  font-family: var(--ff-primary);
+}
+
+
+@media (min-width: 50em) {
+.sedans {
+  .btn:hover {
+    background: var(--Bright-Orange);
+    color: var(--Transparent-white);
+    border: 1px solid var(--Transparent-white);
+  }
+}
+
+.suvs {
+  .btn:hover {
+    background: var(--Dark-Cyan);
+    color: var(--Transparent-white);
+    border: 1px solid var(--Transparent-white);
+  }
+}
+
+.luxury {
+  .btn:hover {
+    background: var(--Very-Dark-Cyan);
+    color: var(--Transparent-white);
+    border: 1px solid var(--Transparent-white);
+  }
+}
+}
